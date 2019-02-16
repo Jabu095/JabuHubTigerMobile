@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Bike"
+        android:id="@+id/txtM"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Bike"
+        android:id="@+id/edM"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Condition"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtC"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:text="Condition"
+        android:layout_marginRight="10dp"
+        android:id="@+id/edC"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="update"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btnUpdate"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btnDelete"
+        android:background="@color/colorAccent"
+        android:text="Delete"
+        android:layout_height="wrap_content" />
+</LinearLayout>
